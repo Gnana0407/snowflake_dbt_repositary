@@ -1,1 +1,1 @@
-SELECT * FROM DB_FINCRIME.SC_GOOGLEPOC.PARTY limit 3
+SELECT * FROM {{ source("proj", "PARTY") }}
