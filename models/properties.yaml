@@ -1,0 +1,14 @@
+sources:
+  - name: "proj"
+    database: "DB_FINCRIME"
+    schema: "SC_GOOGLEPOC"
+    tables:
+      - name: 'PARTY'
+
+models:
+  - name: 'project1.sql'
+    config:
+      materialized: 'table'
+  - name: 'project2.sql'
+    config:
+      materialized: 'table'
