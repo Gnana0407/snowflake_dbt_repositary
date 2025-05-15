@@ -7,6 +7,6 @@ sources:
 
 models:
   
-  - name: 'project2.sql'
+  - name: 'project3.sql'
     config:
       materialized: 'table'
