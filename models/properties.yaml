@@ -1,4 +1,3 @@
-
 sources:
   - name: "proj"
     database: "DB_FINCRIME"
@@ -7,9 +6,7 @@ sources:
       - name: 'PARTY'
 
 models:
-  - name: 'project1.sql'
-    config:
-      materialized: 'table'
+  
   - name: 'project2.sql'
     config:
       materialized: 'table'
