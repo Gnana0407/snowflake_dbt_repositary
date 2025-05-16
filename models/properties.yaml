@@ -20,6 +20,6 @@ models:
       materialized: 'view'
   - name: 'project5.sql'
     config:
-      materialized: 'table'    
+      materialized: 'view'    
 
 model-paths: ["models"]
