@@ -6,6 +6,6 @@ sources:
       - name: 'PARTY'
 
 models:
-  - name: 'project1.sql'
+  - name: 'project15.sql'
     config:
       materialized: 'table'
