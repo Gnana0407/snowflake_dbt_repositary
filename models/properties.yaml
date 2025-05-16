@@ -12,7 +12,7 @@ models:
   - name: 'project2.sql'
     config:
       materialized: 'table'
-  - name: 'project3.sql'  # Added back project3.sql
+  - name: 'project3.sql'
     config:
       materialized: 'table'
   - name: 'project4.sql'
@@ -20,6 +20,6 @@ models:
       materialized: 'view'
   - name: 'project5.sql'
     config:
-      materialized: 'view'    
+      materialized: 'view'
 
 model-paths: ["models"]
