@@ -1,7 +1,3 @@
-name: "google_ai_poc"
+name: project1
 model-paths:
-  - "models"
-
-models:
-  google_ai_poc: # Or a more specific project/model name if needed
-    materialized: 'table'
+  - models
