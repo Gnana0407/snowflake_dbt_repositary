@@ -6,21 +6,6 @@ sources:
       - name: 'PARTY'
 
 models:
-  - name: 'project1.sql'
-    config:
-      materialized: 'table'
-  - name: 'project2.sql'
-    config:
-      materialized: 'table'
-  - name: 'project3.sql'
-    config:
-      materialized: 'table'
-  - name: 'project4.sql'
-    config:
-      materialized: 'view'
-  - name: 'project5.sql'
-    config:
-      materialized: 'view'
-
+  
 model-paths: ["models"]
 seed-paths: ["seeds"]
