@@ -1,11 +1,11 @@
-name: project1
-
-model-paths: ["models"]
-seed-paths: ["seeds"]
-
 sources:
   - name: "proj"
     database: "DB_FINCRIME"
     schema: "SC_GOOGLEPOC"
     tables:
-      - name: "PARTY"
+      - name: 'PARTY'
+
+models:
+  - name: 'project1.sql'
+    config:
+      materialized: 'table'
