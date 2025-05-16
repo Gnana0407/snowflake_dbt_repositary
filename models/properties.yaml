@@ -18,5 +18,8 @@ models:
   - name: 'project4.sql'
     config:
       materialized: 'view'
+  - name: 'project5.sql'
+    config:
+      materialized: 'table'    
 
 model-paths: ["models"]
