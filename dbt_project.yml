@@ -1,4 +1,7 @@
 name: project1
+
 model-paths:
   - models
-seed-paths: ["seeds"]
+
+seed-paths:
+  - seeds
