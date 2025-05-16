@@ -15,5 +15,8 @@ models:
   - name: 'project3.sql'  # Added back project3.sql
     config:
       materialized: 'table'
+  - name: 'project4.sql'
+    config:
+      materialized: 'table'
 
 model-paths: ["models"]
