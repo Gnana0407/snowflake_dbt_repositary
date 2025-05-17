@@ -1,4 +1,3 @@
-version: 2
 sources:
     - name: datafeed_shared_schema
       database: "{{('dbt_db')}}"
@@ -7,3 +6,6 @@ sources:
         - name: stg_customerdata
         - name: stg_payments
         - name: stg_order
+        - name: STG_ITEMS_DATA
+        - name: STG_PRODUCT_DATA
+        - name: STG_SUPPLIES_DATA
