@@ -1,10 +1,3 @@
-{{ config(materialized='table') }}
+select * from DBT_DB.confirmed_layer.stg_customers
 
-WITH tb1 as(
-    select
-    id ,
-    first_name,
-    last_name
-    from {{source('datafeed_shared_schema','stg_customerdata')}})
-select * from tb1
 
